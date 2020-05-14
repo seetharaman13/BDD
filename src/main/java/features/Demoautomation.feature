@@ -21,7 +21,7 @@ Feature: Registering Demo Automation Form
     And Click On Submit button
     Then data table should get displayed
 
-@Seetharaman @test3
+@Seetharaman 
   Scenario Outline: Navigation to Register Page
     Given I Luanch demo URL
     When I enter the First Name as "<Firstname>"

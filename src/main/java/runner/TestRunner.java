@@ -4,7 +4,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(	
 		format = {"pretty","html:target/cucumber-reports/cucumber-pretty"},	
-			tags={"@TestCase_DemoAutomation"},
+			tags={"@Seetharaman"},
 			features = "src/main/java/features",
 			glue={"stepDefinitions"}
 	)
